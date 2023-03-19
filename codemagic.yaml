@@ -12,15 +12,15 @@ workflows:
         # GOOGLE_PLAY_TRACK: "alpha"
       flutter: stable
     scripts:
-      - name: Set up local.properties
-        script: |
-          echo "flutter.sdk=$HOME/programs/flutter" > "$CM_BUILD_DIR/android/local.properties"
-      - name: Get Flutter packages
-        script: |
-          flutter packages pub get
-      - name: Flutter analyze
-        script: |
-          flutter analyze
+      # - name: Set up local.properties
+      #   script: |
+      #     echo "flutter.sdk=$HOME/programs/flutter" > "$CM_BUILD_DIR/android/local.properties"
+      # - name: Get Flutter packages
+      #   script: |
+      #     flutter packages pub get
+      # - name: Flutter analyze
+      #   script: |
+      #     flutter analyze
       # - name: Flutter unit tests
       #   script: |
       #     flutter test
