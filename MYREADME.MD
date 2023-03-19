@@ -91,3 +91,7 @@ Connect your Android device to your computer with a USB cable.
 
 # Run flutter run to launch the app on your device or emulator.
 flutter run
+
+# code magic thing
+ref:https://github.com/codemagic-ci-cd/codemagic-sample-projects/blob/main/flutter/flutter-android-and-ios-yaml-demo-project/codemagic.yaml
+
