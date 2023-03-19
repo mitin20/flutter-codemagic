@@ -40,8 +40,7 @@ workflows:
       - name: Build AAB with Flutter
         script: |
           cd my_hello_world_app 
-          flutter build appbundle --debug \                                                                                                          ─╯
-                      --build-name=1.0.0-TEST
+          flutter build appbundle --debug
     artifacts:
       -  build/app/outputs/bundle/debug/app-debug.aab
 ####### end of quick test #########
